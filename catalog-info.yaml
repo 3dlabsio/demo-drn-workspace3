@@ -1,0 +1,16 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Demo3"
+  description: "Demo3"
+  annotations:
+    terraform.io/organization: 'TestorgDun'
+    terraform.io/project: 'testproject'
+    terraform.io/workspace: 'Demo3'
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
